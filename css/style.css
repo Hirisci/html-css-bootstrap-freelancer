@@ -96,6 +96,10 @@ header{
     color: var(--colore-testo-secondario);
 }
 
+header ul{
+    margin: 0;
+}
+
 
 /* HERO */
 
