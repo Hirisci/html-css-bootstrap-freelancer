@@ -76,7 +76,7 @@ header{
 
 /* HERO */
 
-.hero{
+.hero, .about{
     background-color: var(--colore-bg-sezioni);
     color: var(--colore-testo-secondario)
 }
