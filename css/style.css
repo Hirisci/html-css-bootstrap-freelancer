@@ -5,6 +5,7 @@
  :root{
     /*- COLORI TESTO -*/
     --colore-testo: #000;
+    --colore-testo-secondario: #fff;
     --colore-testo-titolo: #000;
     /*- COLORI BG -*/
     --colore-bg-header: #2c3e50;
@@ -43,6 +44,11 @@ body{
     color: var(--colore-testo);
 }
 
+header{
+    line-height: 38px;
+    background-color: var(--colore-bg-header);
+    color: var(--colore-testo-secondario);
+}
 
 /*╔═══════════════╗
     TAG SEMANTICI
