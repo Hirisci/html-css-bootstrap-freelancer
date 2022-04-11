@@ -55,10 +55,33 @@ body{
 }
 
 .divisore{
-    content: "\f005";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
+    width: 250px;
+    margin: auto;
+    position: relative;
 }
+
+.divisore::before,.divisore::after{
+    content: "";
+    display: block;
+    height: 3px;
+    border-radius: 5px;
+    width: 90px;
+    background-color: white;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.divisore.black::before,.divisore.black::after{
+    background-color: #000;
+}
+.divisore::before{
+    right: 10px;
+}
+.divisore::after{
+    left: 10px;
+}
+
 
 /*╔═══════════════╗
     TAG SEMANTICI
