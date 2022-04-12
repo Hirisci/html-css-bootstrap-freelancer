@@ -45,6 +45,8 @@ body{
 }
 
 
+/*-CONTAINER-*/
+
 .container-custom{
     max-width: 750px;
     margin: auto;
@@ -58,6 +60,10 @@ body{
 .img-avatar{
     width: 300px;
 }
+
+
+
+/*-DIVISORE-*/
 
 .divisore{
     width: 250px;
@@ -87,6 +93,24 @@ body{
     left: 10px;
 }
 
+/*-INPUT-*/
+
+.input{
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0;
+}
+
+.input.altezza{
+    height: 175px;
+}
+
+/*-BUTTON-*/
+
+.btn-green{
+    background-color: var(--colore-bg-sezioni);
+    color: #fff;
+}
 
 /*╔═══════════════╗
     TAG SEMANTICI
