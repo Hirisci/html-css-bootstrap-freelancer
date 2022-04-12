@@ -50,6 +50,11 @@ body{
     margin: auto;
 }
 
+.wrapper-small{
+    width: 60%;
+    margin: auto;
+}
+
 .img-avatar{
     width: 300px;
 }
